@@ -1,8 +1,16 @@
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Globe, Shield, Brain, Users } from "lucide-react";
+import { Globe, Shield, Brain, Users, Loader2 } from "lucide-react";
+import { useSafetyIndexStore } from "@/stores/safetyIndexStore";
 
 const IndexSection = () => {
+  const { safetyData, loading, error, fetchSafetyData } = useSafetyIndexStore();
+
+  useEffect(() => {
+    fetchSafetyData();
+  }, [fetchSafetyData]);
+
   return (
     <section className="py-32 section-gradient">
       <div className="max-w-7xl mx-auto px-6">
@@ -82,12 +90,52 @@ const IndexSection = () => {
           </div>
         </div>
         
+        {/* Data Preview Section */}
+        {loading && (
+          <div className="text-center mb-12">
+            <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto mb-4" />
+            <p className="text-muted-foreground">Loading global safety data...</p>
+          </div>
+        )}
+
+        {error && (
+          <div className="text-center mb-12 p-6 bg-destructive/10 border border-destructive/20 rounded-lg">
+            <p className="text-destructive">Failed to load data: {error}</p>
+          </div>
+        )}
+
+        {safetyData.length > 0 && (
+          <div className="mb-12">
+            <h3 className="text-display text-2xl font-semibold text-foreground mb-8 text-center">
+              Live Safety Index Data
+            </h3>
+            <div className="bg-card/50 backdrop-blur-sm rounded-lg p-6 overflow-x-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {safetyData.slice(0, 6).map((country) => (
+                  <div key={country.country} className="flex items-center space-x-3 p-4 bg-background/50 rounded-lg">
+                    <span className="text-2xl">{country.flag}</span>
+                    <div>
+                      <p className="font-semibold text-foreground">#{country.rank} {country.country}</p>
+                      <p className="text-sm text-muted-foreground">Score: {country.score}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {safetyData.length > 6 && (
+                <p className="text-center text-muted-foreground mt-4">
+                  +{safetyData.length - 6} more countries available
+                </p>
+              )}
+            </div>
+          </div>
+        )}
+        
         <div className="text-center">
           <Button 
             size="lg" 
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-12 py-6 text-lg font-semibold shadow-card transition-smooth"
           >
-            Access the GQSI
+            Access the Full GQSI
           </Button>
         </div>
       </div>
