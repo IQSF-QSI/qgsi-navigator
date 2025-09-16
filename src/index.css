@@ -123,7 +123,8 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body;
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
     font-feature-settings: 'kern' 1, 'liga' 1;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
