@@ -65,6 +65,15 @@ const PartnersSection = () => {
               Proud member of the NVIDIA Inception program, accelerating AI innovation for social good.
             </p>
           </div>
+          
+          <div className="flex flex-col items-center">
+            <div className="h-24 w-48 flex items-center justify-center bg-gradient-primary rounded-lg mb-4 shadow-elegant">
+              <h3 className="text-2xl font-bold text-white">StartOut</h3>
+            </div>
+            <p className="text-muted-foreground text-center max-w-sm">
+              Member of StartOut, empowering LGBTQ+ entrepreneurs to build successful businesses and create positive change.
+            </p>
+          </div>
         </div>
       </div>
     </section>
