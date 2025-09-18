@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Lock, Zap, Cpu } from "lucide-react";
+import { Lock, Zap } from "lucide-react";
+import nvidiaInceptionBadge from "@/assets/nvidia-inception-badge.svg";
 
 const PhilosophySection = () => {
   return (
@@ -80,7 +81,11 @@ const PhilosophySection = () => {
             </div>
             
             <div className="mb-8">
-              <Cpu className="h-16 w-16 text-primary mb-6 group-hover:scale-110 transition-bounce" />
+              <img 
+                src={nvidiaInceptionBadge} 
+                alt="NVIDIA Inception Program Member" 
+                className="h-16 mb-6 group-hover:scale-105 transition-bounce"
+              />
               
               <h3 className="text-display text-2xl font-bold text-foreground mb-4">
                 THE NVIDIA ENGINE
