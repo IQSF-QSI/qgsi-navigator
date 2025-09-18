@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import nvidiaInceptionBadge from "@/assets/nvidia-inception-badge.svg";
 
 const PartnersSection = () => {
   useEffect(() => {
@@ -48,11 +49,22 @@ const PartnersSection = () => {
           </p>
         </div>
         
-        <div className="flex justify-center">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
           <div 
             id="mni-membership-638937738358779148"
             className="w-full max-w-2xl"
           />
+          
+          <div className="flex flex-col items-center">
+            <img 
+              src={nvidiaInceptionBadge} 
+              alt="NVIDIA Inception Program Member" 
+              className="h-24 mb-4"
+            />
+            <p className="text-muted-foreground text-center max-w-sm">
+              Proud member of the NVIDIA Inception program, accelerating AI innovation for social good.
+            </p>
+          </div>
         </div>
       </div>
     </section>
