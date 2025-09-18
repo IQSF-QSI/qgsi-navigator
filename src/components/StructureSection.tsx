@@ -73,7 +73,7 @@ const StructureSection = () => {
             </div>
             
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Our Public Benefit Corporation, QSI, provides the essential intelligence for the world's most forward-thinking organizations. We equip leaders with our Duty of Care Intelligence Platform to build safer, more inclusive, and more effective global teams.
+              Vector for Good PBC provides the essential intelligence for the world's most forward-thinking organizations. We equip leaders with our Duty of Care Intelligence Platform to build safer, more inclusive, and more effective global teams.
             </p>
             
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group-hover:shadow-glow transition-smooth">
