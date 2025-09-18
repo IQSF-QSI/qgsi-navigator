@@ -77,7 +77,7 @@ const StructureSection = () => {
             </p>
             
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group-hover:shadow-glow transition-smooth">
-              Partner with QSI
+              Partner with Vector for Good
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Card>
