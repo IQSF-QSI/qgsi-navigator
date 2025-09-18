@@ -64,7 +64,7 @@ const StructureSection = () => {
               <Building2 className="h-16 w-16 text-primary mb-6 group-hover:scale-110 transition-bounce" />
               
               <h3 className="text-display text-3xl font-bold text-foreground mb-4">
-                QSI FOR PARTNERS
+                VECTOR FOR GOOD POWERS PARTNERS
               </h3>
               
               <h4 className="text-xl font-semibold text-primary mb-6">
