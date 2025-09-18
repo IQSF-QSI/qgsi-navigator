@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64">
+  <rect width="220" height="64" rx="8" fill="#0d0d0f"/>
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, Arial, sans-serif" font-size="14" fill="#e5e5e5">
+    NVIDIA Inception Member
+  </text>
+</svg>
