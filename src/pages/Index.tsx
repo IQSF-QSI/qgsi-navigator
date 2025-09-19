@@ -7,14 +7,22 @@ import CallToActionSection from "@/components/CallToActionSection";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <HeroSection />
-      <IndexSection />
-      <PhilosophySection />
-      <StructureSection />
-      <PartnersSection />
+      <div id="index">
+        <IndexSection />
+      </div>
+      <div id="philosophy">
+        <PhilosophySection />
+      </div>
+      <div id="structure">
+        <StructureSection />
+      </div>
+      <div id="partners">
+        <PartnersSection />
+      </div>
       <CallToActionSection />
-    </main>
+    </div>
   );
 };
 
