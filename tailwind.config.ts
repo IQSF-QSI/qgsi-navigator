@@ -40,6 +40,16 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        pride: {
+          pink: "hsl(var(--pride-pink))",
+          "pink-foreground": "hsl(var(--pride-pink-foreground))",
+          coral: "hsl(var(--pride-coral))",
+          "coral-foreground": "hsl(var(--pride-coral-foreground))",
+          lavender: "hsl(var(--pride-lavender))",
+          "lavender-foreground": "hsl(var(--pride-lavender-foreground))",
+          mint: "hsl(var(--pride-mint))",
+          "mint-foreground": "hsl(var(--pride-mint-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",

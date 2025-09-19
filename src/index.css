@@ -33,6 +33,16 @@
     --accent: 210 25% 88%;
     --accent-foreground: 245 35% 12%;
 
+    /* Queer Pride Colors - Subtle and sophisticated */
+    --pride-pink: 330 60% 85%;
+    --pride-pink-foreground: 330 40% 25%;
+    --pride-coral: 15 70% 80%;
+    --pride-coral-foreground: 15 50% 30%;
+    --pride-lavender: 270 40% 88%;
+    --pride-lavender-foreground: 270 35% 25%;
+    --pride-mint: 160 35% 85%;
+    --pride-mint-foreground: 160 40% 25%;
+
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
 
@@ -47,6 +57,11 @@
     --gradient-section: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(220, 10%, 98%) 100%);
     --gradient-card: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(220, 15%, 98%) 100%);
     --gradient-accent: linear-gradient(135deg, hsl(245, 35%, 12%) 0%, hsl(270, 30%, 20%) 100%);
+
+    /* Pride Gradients - Subtle rainbow touches */
+    --gradient-pride-subtle: linear-gradient(135deg, hsl(330, 60%, 95%) 0%, hsl(270, 40%, 95%) 25%, hsl(210, 50%, 95%) 50%, hsl(160, 35%, 95%) 75%, hsl(15, 70%, 95%) 100%);
+    --gradient-pride-warm: linear-gradient(135deg, hsl(330, 60%, 85%) 0%, hsl(15, 70%, 85%) 100%);
+    --gradient-pride-cool: linear-gradient(135deg, hsl(270, 40%, 88%) 0%, hsl(210, 50%, 88%) 100%);
 
     /* Premium Shadows */
     --shadow-elegant: 0 20px 40px -15px hsl(245, 35%, 12%, 0.15);
@@ -182,5 +197,17 @@
 
   .text-body {
     font-family: var(--font-body);
+  }
+
+  .pride-gradient-subtle {
+    background: var(--gradient-pride-subtle);
+  }
+
+  .pride-gradient-warm {
+    background: var(--gradient-pride-warm);
+  }
+
+  .pride-gradient-cool {
+    background: var(--gradient-pride-cool);
   }
 }

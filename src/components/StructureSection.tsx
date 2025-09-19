@@ -25,9 +25,9 @@ const StructureSection = () => {
           {/* Foundation */}
           <Card className="relative p-12 card-gradient shadow-card hover:shadow-elegant transition-smooth group">
             <div className="absolute top-6 right-6">
-              <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
-                501(c)(3)
-              </Badge>
+            <Badge variant="outline" className="bg-pride-pink text-pride-pink-foreground border-pride-pink">
+              501(c)(3)
+            </Badge>
             </div>
             
             <div className="mb-8">
@@ -46,7 +46,7 @@ const StructureSection = () => {
               Our 501(c)(3) Foundation ensures the GQSI and our independent research remain free and accessible to the public, always. It is our commitment to the community, fueled by grants and public support. Every search you make helps contribute to a clearer picture for all.
             </p>
             
-            <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-smooth">
+            <Button variant="outline" className="w-full border-pride-mint text-pride-mint-foreground hover:bg-pride-mint group-hover:bg-pride-mint transition-smooth">
               Support the Foundation
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -55,9 +55,9 @@ const StructureSection = () => {
           {/* QSI for Partners */}
           <Card className="relative p-12 card-gradient shadow-card hover:shadow-elegant transition-smooth group">
             <div className="absolute top-6 right-6">
-              <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
-                PBC
-              </Badge>
+            <Badge variant="outline" className="bg-pride-lavender text-pride-lavender-foreground border-pride-lavender">
+              PBC
+            </Badge>
             </div>
             
             <div className="mb-8">
@@ -85,12 +85,12 @@ const StructureSection = () => {
         
         {/* Virtuous Cycle */}
         <div className="text-center">
-          <div className="max-w-4xl mx-auto p-12 card-gradient rounded-2xl shadow-card">
-            <h3 className="text-display text-2xl font-bold text-foreground mb-6">
+          <div className="max-w-4xl mx-auto p-12 pride-gradient-cool rounded-2xl shadow-card">
+            <h3 className="text-display text-2xl font-bold text-pride-lavender-foreground mb-6">
               The Virtuous Cycle
             </h3>
             
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-pride-lavender-foreground/80 leading-relaxed">
               The success of our enterprise partnerships is legally mandated to fund the Foundation, creating a virtuous and self-sustaining cycle where our business innovation fuels our public promise.
             </p>
           </div>

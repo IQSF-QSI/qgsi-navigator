@@ -5,7 +5,7 @@ import nvidiaInceptionBadge from "@/assets/nvidia-inception-badge.svg";
 
 const PhilosophySection = () => {
   return (
-    <section className="py-32 bg-background">
+    <section className="py-32 pride-gradient-subtle">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-display text-5xl md:text-6xl font-bold text-foreground mb-8 tracking-tight">
@@ -25,7 +25,7 @@ const PhilosophySection = () => {
           {/* Berlin Promise */}
           <Card className="relative p-12 card-gradient shadow-card hover:shadow-elegant transition-smooth group">
             <div className="absolute top-6 right-6">
-              <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
+              <Badge variant="outline" className="bg-pride-coral text-pride-coral-foreground border-pride-coral">
                 Berlin
               </Badge>
             </div>
@@ -50,7 +50,7 @@ const PhilosophySection = () => {
           {/* Tallinn Experience */}
           <Card className="relative p-12 card-gradient shadow-card hover:shadow-elegant transition-smooth group">
             <div className="absolute top-6 right-6">
-              <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
+              <Badge variant="outline" className="bg-pride-mint text-pride-mint-foreground border-pride-mint">
                 Tallinn
               </Badge>
             </div>
@@ -75,7 +75,7 @@ const PhilosophySection = () => {
           {/* NVIDIA Engine */}
           <Card className="relative p-12 card-gradient shadow-card hover:shadow-elegant transition-smooth group">
             <div className="absolute top-6 right-6">
-              <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
+              <Badge variant="outline" className="bg-pride-lavender text-pride-lavender-foreground border-pride-lavender">
                 NVIDIA
               </Badge>
             </div>

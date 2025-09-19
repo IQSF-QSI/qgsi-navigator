@@ -48,7 +48,10 @@ const PartnersSection = () => {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
             Proud to be part of organizations that champion equality and human rights globally.
           </p>
-          <Button size="lg" className="bg-gradient-primary text-white hover:opacity-90 shadow-elegant">
+          <Button 
+            size="lg" 
+            className="bg-pride-coral text-pride-coral-foreground hover:bg-pride-coral/90 shadow-elegant"
+          >
             Partner with Us
           </Button>
         </div>
@@ -71,8 +74,8 @@ const PartnersSection = () => {
           </div>
           
           <div className="flex flex-col items-center">
-            <div className="h-24 w-48 flex items-center justify-center bg-gradient-primary rounded-lg mb-4 shadow-elegant">
-              <h3 className="text-2xl font-bold text-white">StartOut</h3>
+            <div className="h-24 w-48 flex items-center justify-center pride-gradient-warm rounded-lg mb-4 shadow-elegant">
+              <h3 className="text-2xl font-bold text-pride-coral-foreground">StartOut</h3>
             </div>
             <p className="text-muted-foreground text-center max-w-sm">
               Member of StartOut, empowering LGBTQ+ entrepreneurs to build successful businesses and create positive change.
