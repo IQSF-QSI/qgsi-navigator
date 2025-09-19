@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Button } from "@/components/ui/button";
 import nvidiaInceptionBadge from "@/assets/nvidia-inception-badge.svg";
 
 const PartnersSection = () => {
@@ -44,9 +45,12 @@ const PartnersSection = () => {
           <h2 className="text-display text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
             Our Memberships
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
             Proud to be part of organizations that champion equality and human rights globally.
           </p>
+          <Button size="lg" className="bg-gradient-primary text-white hover:opacity-90 shadow-elegant">
+            Partner with Us
+          </Button>
         </div>
         
         <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
