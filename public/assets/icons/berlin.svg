@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
-    <!-- Brandenburg Gate simplified -->
-    <rect x="12" y="66" width="104" height="10"/>
-    <rect x="18" y="76" width="8" height="30"/>
-    <rect x="36" y="76" width="8" height="30"/>
-    <rect x="56" y="76" width="8" height="30"/>
-    <rect x="76" y="76" width="8" height="30"/>
-    <rect x="96" y="76" width="8" height="30"/>
-    <path d="M12 66h104M24 60h80M20 54h88"/>
-    <circle cx="64" cy="48" r="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" aria-hidden="true" role="img">
+  <title>Berlin – Brandenburg Gate Icon</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 62 H118"/><path d="M18 56 H110"/><path d="M14 50 H114"/>
+    <rect x="18" y="66" width="10" height="34" rx="1.5"/>
+    <rect x="36" y="66" width="10" height="34" rx="1.5"/>
+    <rect x="56" y="66" width="10" height="34" rx="1.5"/>
+    <rect x="76" y="66" width="10" height="34" rx="1.5"/>
+    <rect x="96" y="66" width="10" height="34" rx="1.5"/>
+    <rect x="10" y="102" width="108" height="8" rx="1.5"/>
+    <circle cx="64" cy="44" r="4"/>
   </g>
 </svg>

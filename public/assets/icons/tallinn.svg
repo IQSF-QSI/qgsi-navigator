@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 160">
-  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
-    <!-- Old Town wall -->
-    <path d="M12 120h104v20H12z"/>
-    <!-- Spire (Town Hall/Old Town) -->
-    <path d="M64 24l-6 16h12l-6-16zM64 40v64"/>
-    <rect x="52" y="72" width="24" height="32"/>
-    <!-- Alexander Nevsky onion dome silhouette -->
-    <path d="M32 88c0-10 10-18 16-18s16 8 16 18H32z"/>
-    <path d="M64 88c0-10 10-18 16-18s16 8 16 18H64z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 160" aria-hidden="true" role="img">
+  <title>Tallinn – Old Town & Cathedral Icon</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="10" y="122" width="108" height="18" rx="2"/>
+    <path d="M64 24 l-6 16 h12 z"/><path d="M64 40 V108"/>
+    <rect x="54" y="78" width="20" height="30" rx="1.5"/>
+    <path d="M30 94 c0-10 10-18 16-18 s16 8 16 18 H30 z"/>
+    <path d="M66 94 c0-10 10-18 16-18 s16 8 16 18 H66 z"/>
   </g>
 </svg>
