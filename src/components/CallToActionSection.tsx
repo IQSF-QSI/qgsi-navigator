@@ -46,12 +46,6 @@ const CallToActionSection = () => {
             Learn More
           </Button>
         </div>
-        
-        <div className="mt-20 pt-12 border-t border-primary-foreground/20">
-          <p className="text-primary-foreground/60 text-sm">
-            © 2024 IQSF. Intelligence designed with intention.
-          </p>
-        </div>
       </div>
     </section>
   );

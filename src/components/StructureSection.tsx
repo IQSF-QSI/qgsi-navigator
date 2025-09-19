@@ -77,7 +77,7 @@ const StructureSection = () => {
             </p>
             
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 group-hover:shadow-glow transition-smooth">
-              Memberships
+              Partner with us for good
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Card>

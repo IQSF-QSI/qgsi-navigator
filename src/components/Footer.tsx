@@ -30,23 +30,29 @@ const Footer = () => {
                 <Mail className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/iqsf_org"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://linkedin.com/company/iqsf"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://iqsf.org"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Website"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Globe className="h-5 w-5" />
               </a>
@@ -88,30 +94,38 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Resources</h4>
             <nav className="flex flex-col space-y-2">
-              <Link
-                to="#"
+              <a
+                href="https://docs.iqsf.org"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Documentation
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://api.iqsf.org"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 API Access
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://research.iqsf.org"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Research Reports
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://support.iqsf.org"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Support Center
-              </Link>
+              </a>
             </nav>
           </div>
 
@@ -119,30 +133,38 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Legal</h4>
             <nav className="flex flex-col space-y-2">
-              <Link
-                to="#"
+              <a
+                href="https://iqsf.org/privacy"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Privacy Policy
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://iqsf.org/terms"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Terms of Service
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://iqsf.org/cookies"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Cookie Policy
-              </Link>
-              <Link
-                to="#"
+              </a>
+              <a
+                href="https://iqsf.org/accessibility"
                 className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Accessibility
-              </Link>
+              </a>
             </nav>
           </div>
         </div>
